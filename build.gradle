@@ -1,0 +1,20 @@
+// build.gradle: the recipe Gradle follows to build the project
+
+plugins {
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.1.0'
+}
+
+repositories {
+    mavenCentral()
+}
+
+javafx {
+    version = '21'
+    modules = ['javafx.controls']
+}
+
+application {
+    // The class that starts the program
+    mainClass = 'com.example.lodgebilling.Launcher'
+}

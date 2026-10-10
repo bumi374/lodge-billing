@@ -1,0 +1,2 @@
+// settings.gradle: the name of this project
+rootProject.name = 'lodge-billing'
